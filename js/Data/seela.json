@@ -1,0 +1,72 @@
+{
+  "info": {
+    "src": "images/seela.png",
+    "no_antialiasing": true,
+    "flip_x": true
+  },
+  "states": {
+    "idle": {
+      "fps": 2,
+      "cycle": true,
+      "frames": [
+        {"width":560,"height":1470,"startX":6237,"startY":1478},
+        {"width":560,"height":1470,"startX":6237,"startY":1478},
+        {"width":587,"height":1443,"startX":0,"startY":4448},
+        {"width":587,"height":1443,"startX":0,"startY":4448},
+        {"width":605,"height":1423,"startX":1338,"startY":2984},
+        {"width":605,"height":1423,"startX":1338,"startY":2984},
+        {"width":587,"height":1443,"startX":0,"startY":4448},
+        {"width":587,"height":1443,"startX":0,"startY":4448},
+        {"width":539,"height":1483,"startX":6237,"startY":2948},
+        {"width":539,"height":1483,"startX":6237,"startY":2948}
+      ]
+    },
+    "walk": {
+      "fps": 2,
+      "cycle": true,
+      "frames": [
+        {"width":605,"height":1478,"startX":5623,"startY":2955},
+        {"width":605,"height":1478,"startX":5623,"startY":2955},
+        {"width":614,"height":1477,"startX":5623,"startY":1478},
+        {"width":614,"height":1477,"startX":5623,"startY":1478},
+        {"width":641,"height":1480,"startX":4982,"startY":0},
+        {"width":641,"height":1480,"startX":4982,"startY":0},
+        {"width":670,"height":1464,"startX":0,"startY":2984},
+        {"width":670,"height":1464,"startX":0,"startY":2984},
+        {"width":692,"height":1465,"startX":4290,"startY":0},
+        {"width":692,"height":1465,"startX":4290,"startY":0}
+      ]
+    },
+    "jump": {
+      "fps": 2,
+      "cycle": false,
+      "frames": [
+        {"width":764,"height":1481,"startX":1748,"startY":1492},
+        {"width":727,"height":1524,"startX":3563,"startY":0},
+        {"width":727,"height":1524,"startX":3563,"startY":0},
+        {"width":751,"height":1477,"startX":2512,"startY":1492}
+      ]
+    },
+    "crouch": {
+      "fps": 2,
+      "cycle": true,
+      "frames": [
+        {"width":698,"height":1192,"startX":587,"startY":4448},
+        {"width":670,"height":1193,"startX":6808,"startY":0},
+        {"width":670,"height":1193,"startX":6808,"startY":0},
+        {"width":729,"height":1177,"startX":1943,"startY":2984}
+      ]
+    },
+    "attack": {
+      "fps": 2,
+      "cycle": false,
+      "frames": [
+        {"width":893,"height":1492,"startX":904,"startY":0},
+        {"width":893,"height":1492,"startX":904,"startY":0},
+        {"width":880,"height":1492,"startX":2683,"startY":0},
+        {"width":880,"height":1492,"startX":2683,"startY":0}
+      ]
+    }
+  }
+}
+

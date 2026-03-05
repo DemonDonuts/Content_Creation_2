@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="blast.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="blast0000" x="0" y="0" width="631" height="735" frameX="-153" frameY="-265" frameWidth="1080" frameHeight="1520"/>
+	<SubTexture name="blast0001" x="0" y="0" width="631" height="735" frameX="-153" frameY="-265" frameWidth="1080" frameHeight="1520"/>
+	<SubTexture name="blast0002" x="631" y="0" width="625" height="732" frameX="-190" frameY="-271" frameWidth="1080" frameHeight="1520"/>
+	<SubTexture name="blast0003" x="631" y="0" width="625" height="732" frameX="-190" frameY="-271" frameWidth="1080" frameHeight="1520"/>
+	<SubTexture name="blast0004" x="1256" y="0" width="690" height="655" frameX="-139" frameY="-305" frameWidth="1080" frameHeight="1520"/>
+	<SubTexture name="blast0005" x="1256" y="0" width="690" height="655" frameX="-139" frameY="-305" frameWidth="1080" frameHeight="1520"/>
+</TextureAtlas>

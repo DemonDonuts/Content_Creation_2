@@ -103,6 +103,19 @@ var caveHit = new Grid(caveHitData, {world:level, x:1024, tileHeight:64, tileWid
 
 
 
+
+var bg2 = new GameObject({
+    x: level.x,
+    y: level.y,
+    width: canvas.width * 4,   // match your bg size
+    height: canvas.height,
+    world: level
+});
+bg2.img.src = "images/bg2.png";
+
+
+
+
 //This is a group used for collisions
 var g1 = new Group();
 g1.color= `rgb(251,0,254)`;

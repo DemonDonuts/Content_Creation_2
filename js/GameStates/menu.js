@@ -3,8 +3,8 @@ This file contains all of the code for the Main Menu
 ----------------------------------*/
 
 var startButton = new GameObject();
-//startButton.img.src="images/start.png"
-startButton.width=200;
+startButton.img.src="images/start.png"
+startButton.width=300;
 startButton.hitBoxWidth=800
 console.log(startButton.collisionPoints.right)
 
@@ -14,28 +14,33 @@ menuBackground.img.src = "images/purp.png"
 menuBackground.width=canvas.width
 menuBackground.height=canvas.height
 
-gameStates[`menu`] =function(){
+gameStates[`menu`] = function() {
 
-	//Makes the button clickable
-	if(startButton.overlap(mouse))
-	{
-		if(mouse.pressed)
-		{
-			//Changes to the game state
-			gameStates.changeState(`level1`)
-		}
+    // Hover + click
+    if (startButton.overlap(mouse)) {
+        if (mouse.pressed) {
+            gameStates.changeState(`level1`);
+        }
+        startButton.scale = 1.07;
+    } else {
+        startButton.scale = 1.0;
+    }
 
-		//Hover Effect Graffic
-		startButton.color = `magenta`
-	}
-	else
-	{
-		//Default Button Graphic
-		startButton.color = `blue`
-	}
-	
-	menuBackground.drawStaticImage();
-	startButton.render()
-}
+    // Draw background
+    menuBackground.drawStaticImage();
+
+    // Draw start button image
+    let scaledW = startButton.width * startButton.scale;
+	let scaledH = startButton.height * startButton.scale;
+
+	startButton.drawStaticImage({
+    x: -scaledW / 2,
+    y: -scaledH / 2,
+    w: scaledW,
+    h: scaledH
+});
+
+};
+
 	
 	
